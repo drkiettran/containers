@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export EXT_PORT_NO=49003
+export EXT_PORT_NO=5432
 export INT_PORT_NO=5432
 export IMAGE_NAME=docker.io/postgres
 export CONTAINER_NAME=postgres

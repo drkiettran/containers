@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export EXT_PORT_NO=49005
+export EXT_PORT_NO=3306
 export INT_PORT_NO=3306
 export IMAGE_NAME=mysql/mysql-server
 export CONTAINER_NAME=mysql
