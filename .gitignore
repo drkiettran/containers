@@ -2,3 +2,5 @@ artifactory
 config
 config-devops
 .*.swap
+metastore_db
+derby.log
