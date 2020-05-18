@@ -2,7 +2,7 @@
 
 export EXT_PORT_NO=3306
 export INT_PORT_NO=3306
-export IMAGE_NAME=mysql/mysql-server
+export IMAGE_NAME=mysql:5.7.30
 export CONTAINER_NAME=mysql
 
 # Pull latest container
