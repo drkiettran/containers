@@ -140,3 +140,106 @@
   140  cd containers/
   141  ls
   142  history > install_history_10_august_2020.txt 
+
+### user hadoop history of installing hadoop 3.1.3 (don't change to the latest)
+    1  ssh-keygen -t rsa
+    2  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+    3  wget https://downloads.apache.org/hadoop/common/hadoop-3.1.3/hadoop-3.3.0.tar.gz
+    4  wget https://downloads.apache.org/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.tar.gz
+    5  tar -xzvf hadoop-3.1.3.tar.gz -C /home/hadoop
+    6  cd
+    7  ls
+    8  pwd
+    9  ssh-keygen -t rsa
+   10  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+   11  wget https://downloads.apache.org/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.tar.gz
+   12  tar -xzvf hadoop-3.1.3.tar.gz -C /home/hadoop
+   13  tar -xzvf hadoop-3.3.0.tar.gz -C /home/hadoop
+   14  vim .bashrc
+   15  source .bashrc
+   16  vim hadoop-3.3.0/etc/hadoop/hadoop-env.sh
+   17  update-alternatives --config java
+   18  javac -version
+   19  ls /usr/lib/jvm/java-8-openjdk-amd64/
+   20  ls /usr/lib/jvm/java-8-openjdk-amd64/bin
+   21  vim .bashrc
+   22  vim hadoop-3.3.0/etc/hadoop/hadoop-env.sh
+   23  vim hadoop-3.3.0/etc/hadoop/core-site.xml 
+   24  mkdir ~/hadooptmpdata
+   25  mkdir -p ~/hdfs/namenode ~/hdfs/datanode
+   26  vim hadoop-3.3.0/etc/hadoop/hdfs-site.xml 
+   27  vim hadoop-3.3.0/etc/hadoop/mapred-site.xml 
+   28  vim hadoop-3.3.0/etc/hadoop/yarn-site.xml 
+   29  cat .bashrc
+   30  hdfs
+   31  hdfs namenode -format
+   32  start-dfs.sh
+   33  jps
+   34  ls
+   35  ls hdfs
+   36  ls hadooptmpdata/
+   37  ls hadoop/etc
+   38  ls hadoop/
+   39  ls
+   40  mv hadoop-3.3.0 hadoop
+   41  vim .bashrc
+   42  . .bashrc
+   43  start-dfs.sh
+   44  jps
+   45  cat hadoop/etc/hadoop/hadoop-env.sh
+   46  cat hadoop/etc/hadoop/hadoop-env.sh | grep JAVA_HOME
+   47  java -version
+   48  vim .bashrc
+   49  . .bashrc
+   50  start-dfs.sh
+   51  cat hadoop/logs/hadoop-hadoop-datanode-kiet-VirtualBox.log
+   52  cd
+   53  vim .bashrc
+   54  ls
+   55  rm hadoop
+   56  rm hadoop-3.3.0.tar.gz 
+   57  ls
+   58  clear
+   59  ls hdfs
+   60  ls hdfs/data
+   61  ls hdfs/datanode/
+   62  vim hadoop/logs/hadoop-hadoop-datanode-kiet-VirtualBox.log
+   63  cat hadoop/etc/hadoop/hadoop-env.sh
+   64  cat hadoop/etc/hadoop/hadoop-env.sh | grep -i data
+   65  cat hadoop/etc/hadoop/core-site.xml 
+   66  jps
+   67  cat hadoop/logs/hadoop-hadoop-datanode-kiet-VirtualBox.log
+   68  rm -rf hadoop
+   69  wget https://downloads.apache.org/hadoop/common/hadoop-3.1.3/hadoop-3.1.3.tar.gz
+   70  tar -xzvf hadoop-3.1.3.tar.gz -C /home/hadoop
+   71  vim .bashrc
+   72  source .bashrc
+   73  rm hadoop-3.1.3.tar.gz 
+   74  ls
+   75  cd hadoop-3.1.3/etc/hadoop
+   76  vim hadoop-env.sh
+   77  vim core-site.xml 
+   78  ls ~
+   79  cat core-site.xml 
+   80  vim hdfs-site.xml 
+   81  vim mapred-site.xml 
+   82  vim yarn-site.xml 
+   83  hdfs namenode -format
+   84  start-dfs.sh
+   85  jps
+   86  hdfs dfs -ls /
+   87  start-yarn.sh
+   88  jps
+   89  cd
+   90  cd /tmp
+   91  history
+   92  git clone https://github.com/drkiettran/containers
+   93  cd containers/
+   94  history >> install_history_10_august_2020.txt 
+   95  ll
+   96  cd
+   97  cd hadoop
+   98  cd
+   99  git clone https://github.com/drkiettran/containers
+  100  cd containers/
+  101  history >> install_history_10_august_2020.txt 
