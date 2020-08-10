@@ -1,0 +1,66 @@
+    1  cd
+    2  ls
+    3  ll
+    4  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    5  sudo apt install ./google-chrome-stable_current_amd64.deb
+    6  java -version
+    7  ssh-genkey
+    8  docker
+    9  ssh-keygen
+   10  git
+   11  sudo apt install git
+   12  tree
+   13  sudo apt install tree
+   14  tree
+   15  java -version
+   16  sudo apt install default-jre
+   17  java -version
+   18  sudo apt install default-jdk
+   19  javac 
+   20  javac -version
+   21  java -version
+   22  sudo alternatives --config java
+   23  sudo update-alternatives --config java
+   24  sudo apt update
+   25  sudo apt install openjdk-8-jdk
+   26  java -version
+   27  sudo update-alternatives --config java
+   28  docker ps
+   29  sudo apt update
+   30  sudo apt list --upgradable
+   31  sudo apt upgrade
+   32  sudo apt update
+   33  sudo apt upgrade
+   34  vim /etc/groups
+   35  sudo apt install vim
+   36  vim /etc/groups
+   37  cat /etc/hosts
+   38  ls /etc
+   39  cat /etc/passwd
+   40  ls /etc
+   41  vim /etc/group
+   42  su -
+   43  ssh root@localhost
+   44  sudo adduser student
+   45  usermod -aG sudo student
+   46  sudo usermod -aG sudo student
+   47  cat /etc/group
+   48  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   49  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   50  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+   51  sudo apt update
+   52  apt-cache policy docker-ce
+   53  udo apt install docker-ce
+   54  sudo apt install docker-ce
+   55  sudo systemctl status docker
+   56  docker ps
+   57  sudo usermod -aG docker ${USER}
+   58  docker ps
+   59  sudo - kiet
+   60  sudo -
+   61  sudo -i
+   62  sudo usermod -aG docker student
+   63  cat /etc/group
+   64  history
+   65  cd
+   66  history > install_history_10_august_2020.txt
