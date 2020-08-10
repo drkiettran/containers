@@ -61,6 +61,82 @@
    61  sudo -i
    62  sudo usermod -aG docker student
    63  cat /etc/group
-   64  history
-   65  cd
-   66  history > install_history_10_august_2020.txt
+   64  cd
+   65  cd Downloads/
+   66  ls
+   67  tar -C /usr/local/ -xzf go1.14.7.linux-386.tar.gz 
+   68  sudo tar -C /usr/local/ -xzf go1.14.7.linux-386.tar.gz 
+   69  cd
+   70  vim .bashrc
+   71  . .bashrc
+   72  go 
+   73  ls /usr/local/go
+   74  ls /usr/local/go/bin
+   75  vim .bashrc
+   76  ls /usr/local/bo/bin
+   77  ls /usr/local/go
+   78  ls /usr/local/go/bin
+   79  vim .bashrc
+   80  go
+   81  ls /usr/local/go/bin/go
+   82  /usr/local/go/bin/go
+   83  sudo /usr/local/go/bin/go
+   84  cd
+   85  cd /usr/local/go
+   86  ls
+   87  ./bin/go
+   88  ./bin/go -version
+   89  ./bin/go -v
+   90  cd
+   91  source .bashrc
+   92  go
+   93  vim ls
+   94  ls
+   95  cd Downloads/
+   96  ls
+   97  cd
+   98  cd /usr/local
+   99  rm -rf go
+  100  sudo rm -rf go
+  101  ls
+  102  cd
+  103  vim .bashrc
+  104  sudo install golang
+  105  sudo apt install golang
+  106  cd Downloads/
+  107  ll
+  108  rm go*
+  109  ll
+  110  sudo tar -C /opt -xzf ./pycharm-community-2020.2.tar.gz 
+  111  sudo tar -C /opt -xzf ./spring-tool-suite-4-4.7.1.RELEASE-e4.16.0-linux.gtk.x86_64.tar.gz 
+  112  nano
+  113  cd
+  114  history
+  115  cd Downloads/
+  116  ls
+  117  rm pycharm-community-2020.2.tar.gz 
+  118  rm spring-tool-suite-4-4.7.1.RELEASE-e4.16.0-linux.gtk.x86_64.tar.gz 
+  119  ls
+  120  sudo tar -C /opt -xzf ./Postman-linux-x64-7.29.1.tar.gz 
+  121  sudo ln -s /opt/Postman/Postman /usr/local/bin/postman
+  122  postman
+  123  sudo ln -s /opt/pycharm-community-2020.2/bin/pycharm.sh /usr/local/bin/pycharm
+  124  pycharm
+  125  sudo ln -s /opt/sts-4.7.1.RELEASE/SpringToolSuite4 /usr/local/bin/sts
+  126  sts
+  127  history
+  128  ls
+  129  sudo tar -C /opt -xzf ./code-stable-1595520402.tar.gz 
+  130  sudo ln -s /opt/VSCode-linux-x64/code /usr/local/bin/code
+  131  code
+  132  sudo apt install maven
+  133* mvn -versio
+  134  sudo apt install gradle
+  135  gradle -v
+  136  history
+  137  cd /tmp
+  138  ls
+  139  git clone https://github.com/drkiettran/containers
+  140  cd containers/
+  141  ls
+  142  history > install_history_10_august_2020.txt 
