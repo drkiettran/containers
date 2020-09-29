@@ -1,0 +1,245 @@
+    1  cd
+    2  ls
+    3  ll
+    4  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    5  sudo apt install ./google-chrome-stable_current_amd64.deb
+    6  java -version
+    7  ssh-genkey
+    8  docker
+    9  ssh-keygen
+   10  git
+   11  sudo apt install git
+   12  tree
+   13  sudo apt install tree
+   14  tree
+   15  java -version
+   16  sudo apt install default-jre
+   17  java -version
+   18  sudo apt install default-jdk
+   19  javac 
+   20  javac -version
+   21  java -version
+   22  sudo alternatives --config java
+   23  sudo update-alternatives --config java
+   24  sudo apt update
+   25  sudo apt install openjdk-8-jdk
+   26  java -version
+   27  sudo update-alternatives --config java
+   28  docker ps
+   29  sudo apt update
+   30  sudo apt list --upgradable
+   31  sudo apt upgrade
+   32  sudo apt update
+   33  sudo apt upgrade
+   34  vim /etc/groups
+   35  sudo apt install vim
+   36  vim /etc/groups
+   37  cat /etc/hosts
+   38  ls /etc
+   39  cat /etc/passwd
+   40  ls /etc
+   41  vim /etc/group
+   42  su -
+   43  ssh root@localhost
+   44  sudo adduser student
+   45  usermod -aG sudo student
+   46  sudo usermod -aG sudo student
+   47  cat /etc/group
+   48  sudo apt install apt-transport-https ca-certificates curl software-properties-common
+   49  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   50  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+   51  sudo apt update
+   52  apt-cache policy docker-ce
+   53  udo apt install docker-ce
+   54  sudo apt install docker-ce
+   55  sudo systemctl status docker
+   56  docker ps
+   57  sudo usermod -aG docker ${USER}
+   58  docker ps
+   59  sudo - kiet
+   60  sudo -
+   61  sudo -i
+   62  sudo usermod -aG docker student
+   63  cat /etc/group
+   64  cd
+   65  cd Downloads/
+   66  ls
+   67  tar -C /usr/local/ -xzf go1.14.7.linux-386.tar.gz 
+   68  sudo tar -C /usr/local/ -xzf go1.14.7.linux-386.tar.gz 
+   69  cd
+   70  vim .bashrc
+   71  . .bashrc
+   72  go 
+   73  ls /usr/local/go
+   74  ls /usr/local/go/bin
+   75  vim .bashrc
+   76  ls /usr/local/bo/bin
+   77  ls /usr/local/go
+   78  ls /usr/local/go/bin
+   79  vim .bashrc
+   80  go
+   81  ls /usr/local/go/bin/go
+   82  /usr/local/go/bin/go
+   83  sudo /usr/local/go/bin/go
+   84  cd
+   85  cd /usr/local/go
+   86  ls
+   87  ./bin/go
+   88  ./bin/go -version
+   89  ./bin/go -v
+   90  cd
+   91  source .bashrc
+   92  go
+   93  vim ls
+   94  ls
+   95  cd Downloads/
+   96  ls
+   97  cd
+   98  cd /usr/local
+   99  rm -rf go
+  100  sudo rm -rf go
+  101  ls
+  102  cd
+  103  vim .bashrc
+  104  sudo install golang
+  105  sudo apt install golang
+  106  cd Downloads/
+  107  ll
+  108  rm go*
+  109  ll
+  110  sudo tar -C /opt -xzf ./pycharm-community-2020.2.tar.gz 
+  111  sudo tar -C /opt -xzf ./spring-tool-suite-4-4.7.1.RELEASE-e4.16.0-linux.gtk.x86_64.tar.gz 
+  112  nano
+  113  cd
+  114  history
+  115  cd Downloads/
+  116  ls
+  117  rm pycharm-community-2020.2.tar.gz 
+  118  rm spring-tool-suite-4-4.7.1.RELEASE-e4.16.0-linux.gtk.x86_64.tar.gz 
+  119  ls
+  120  sudo tar -C /opt -xzf ./Postman-linux-x64-7.29.1.tar.gz 
+  121  sudo ln -s /opt/Postman/Postman /usr/local/bin/postman
+  122  postman
+  123  sudo ln -s /opt/pycharm-community-2020.2/bin/pycharm.sh /usr/local/bin/pycharm
+  124  pycharm
+  125  sudo ln -s /opt/sts-4.7.1.RELEASE/SpringToolSuite4 /usr/local/bin/sts
+  126  sts
+  127  history
+  128  ls
+  129  sudo tar -C /opt -xzf ./code-stable-1595520402.tar.gz 
+  130  sudo ln -s /opt/VSCode-linux-x64/code /usr/local/bin/code
+  131  code
+  132  sudo apt install maven
+  133* mvn -versio
+  134  sudo apt install gradle
+  135  gradle -v
+  136  history
+  137  cd /tmp
+  138  ls
+  139  git clone https://github.com/drkiettran/containers
+  140  cd containers/
+  141  ls
+  142  history > install_history_10_august_2020.txt 
+
+### user hadoop history of installing hadoop 3.1.3 (don't change to the latest)
+    1  ssh-keygen -t rsa
+    2  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+    3  wget https://downloads.apache.org/hadoop/common/hadoop-3.1.3/hadoop-3.3.0.tar.gz
+    4  wget https://downloads.apache.org/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.tar.gz
+    5  tar -xzvf hadoop-3.1.3.tar.gz -C /home/hadoop
+    6  cd
+    7  ls
+    8  pwd
+    9  ssh-keygen -t rsa
+   10  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+   11  wget https://downloads.apache.org/hadoop/common/hadoop-3.3.0/hadoop-3.3.0.tar.gz
+   12  tar -xzvf hadoop-3.1.3.tar.gz -C /home/hadoop
+   13  tar -xzvf hadoop-3.3.0.tar.gz -C /home/hadoop
+   14  vim .bashrc
+   15  source .bashrc
+   16  vim hadoop-3.3.0/etc/hadoop/hadoop-env.sh
+   17  update-alternatives --config java
+   18  javac -version
+   19  ls /usr/lib/jvm/java-8-openjdk-amd64/
+   20  ls /usr/lib/jvm/java-8-openjdk-amd64/bin
+   21  vim .bashrc
+   22  vim hadoop-3.3.0/etc/hadoop/hadoop-env.sh
+   23  vim hadoop-3.3.0/etc/hadoop/core-site.xml 
+   24  mkdir ~/hadooptmpdata
+   25  mkdir -p ~/hdfs/namenode ~/hdfs/datanode
+   26  vim hadoop-3.3.0/etc/hadoop/hdfs-site.xml 
+   27  vim hadoop-3.3.0/etc/hadoop/mapred-site.xml 
+   28  vim hadoop-3.3.0/etc/hadoop/yarn-site.xml 
+   29  cat .bashrc
+   30  hdfs
+   31  hdfs namenode -format
+   32  start-dfs.sh
+   33  jps
+   34  ls
+   35  ls hdfs
+   36  ls hadooptmpdata/
+   37  ls hadoop/etc
+   38  ls hadoop/
+   39  ls
+   40  mv hadoop-3.3.0 hadoop
+   41  vim .bashrc
+   42  . .bashrc
+   43  start-dfs.sh
+   44  jps
+   45  cat hadoop/etc/hadoop/hadoop-env.sh
+   46  cat hadoop/etc/hadoop/hadoop-env.sh | grep JAVA_HOME
+   47  java -version
+   48  vim .bashrc
+   49  . .bashrc
+   50  start-dfs.sh
+   51  cat hadoop/logs/hadoop-hadoop-datanode-kiet-VirtualBox.log
+   52  cd
+   53  vim .bashrc
+   54  ls
+   55  rm hadoop
+   56  rm hadoop-3.3.0.tar.gz 
+   57  ls
+   58  clear
+   59  ls hdfs
+   60  ls hdfs/data
+   61  ls hdfs/datanode/
+   62  vim hadoop/logs/hadoop-hadoop-datanode-kiet-VirtualBox.log
+   63  cat hadoop/etc/hadoop/hadoop-env.sh
+   64  cat hadoop/etc/hadoop/hadoop-env.sh | grep -i data
+   65  cat hadoop/etc/hadoop/core-site.xml 
+   66  jps
+   67  cat hadoop/logs/hadoop-hadoop-datanode-kiet-VirtualBox.log
+   68  rm -rf hadoop
+   69  wget https://downloads.apache.org/hadoop/common/hadoop-3.1.3/hadoop-3.1.3.tar.gz
+   70  tar -xzvf hadoop-3.1.3.tar.gz -C /home/hadoop
+   71  vim .bashrc
+   72  source .bashrc
+   73  rm hadoop-3.1.3.tar.gz 
+   74  ls
+   75  cd hadoop-3.1.3/etc/hadoop
+   76  vim hadoop-env.sh
+   77  vim core-site.xml 
+   78  ls ~
+   79  cat core-site.xml 
+   80  vim hdfs-site.xml 
+   81  vim mapred-site.xml 
+   82  vim yarn-site.xml 
+   83  hdfs namenode -format
+   84  start-dfs.sh
+   85  jps
+   86  hdfs dfs -ls /
+   87  start-yarn.sh
+   88  jps
+   89  cd
+   90  cd /tmp
+   91  history
+   92  git clone https://github.com/drkiettran/containers
+   93  cd containers/
+   94  history >> install_history_10_august_2020.txt 
+   95  ll
+   96  cd
+   97  cd hadoop
+   98  cd
+   99  git clone https://github.com/drkiettran/containers
+  100  cd containers/
+  101  history >> install_history_10_august_2020.txt 
