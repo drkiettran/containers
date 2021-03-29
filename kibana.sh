@@ -11,9 +11,11 @@ docker pull $IMAGE_NAME
 # Setup local configuration folder
 # docker volume create --name kibana_data
  
+# -e elasticsearch.hosts=http://localhost:9200 \
+
 # Start container
 docker run --restart=always -d \
--e elasticsearch.hosts=http://localhost:9200 \
+-e ELASTICSEARCH_HOSTS=http://$1:9200 \
 -p $EXT_PORT_NO:$INT_PORT_NO \
 --name $CONTAINER_NAME -t $IMAGE_NAME
  
