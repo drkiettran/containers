@@ -7,7 +7,10 @@ export CONTAINER_NAME=activemq
 #docker run -d --hostname $HOST_NAME -p 8161:8161 \
 #	-v /tmp:/tmp \
 #	--name $CONTAINER_NAME $IMAGE_NAME
+docker network create cisc525-network 
+
 docker run -d --hostname $HOST_NAME \
+    --net cisc525-network \
 	-v /home/student/certs:/certs \
 	-v /home/student/python/activemq/conf:/opt/activemq/conf \
 	--name $CONTAINER_NAME $IMAGE_NAME

@@ -51,7 +51,25 @@ the IP address of your mysql container in `step 2` above:
 mysql --host=172.17.0.2 -u student -ppassword
 ```
 
-## postgresql
+## ELFK (elastic, logstash, fluentd, and kibana)
 
+Run them together in a network `cisc525-network`.
+
+```bash
+cd ~/cisc525/containers
+./elasticsearch.sh
+./logstash.sh
+./fluentd.sh
+./kibana.sh
+```
+
+Access to kibana via port 5061.
+Optionally, add hostnames into /etc/hosts file. You can find out all the 
+associated ip addresses using `docket network inspect cisc525-network`. 
+A list of all service names and ip address are displayed.
 
 ## mongodb
+
+1. Starts `mongodb` as `./mongodb.sh`.
+2. Install Mongodb client as `sudo apt install -y mongodb-clients`
+3. Run client `mongo`
