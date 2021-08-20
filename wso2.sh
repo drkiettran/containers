@@ -15,6 +15,7 @@ docker pull $IMAGE_NAME
 # Start container
 docker run --restart=always -d -p $EXT_PORT_NO:$INT_PORT_NO \
 -e MYSQL_ROOT_PASSWORD=password \
+-v /tmp:/tmp \
 --name $CONTAINER_NAME -t $IMAGE_NAME
  
 docker logs --follow $CONTAINER_NAME
