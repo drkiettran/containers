@@ -14,9 +14,10 @@ docker pull $IMAGE_NAME
  
 # Start container
 docker run --restart=always -d -p $EXT_PORT_NO:$INT_PORT_NO \
--e "PGADMIN_DEFAULT_EMAIL=user@domain.com" \
--e "PGADMIN_DEFAULT_PASSWORD=password" \
---name $CONTAINER_NAME -t $IMAGE_NAME
+	--network cisc520-network \
+	-e "PGADMIN_DEFAULT_EMAIL=user@domain.com" \
+	-e "PGADMIN_DEFAULT_PASSWORD=password" \
+	--name $CONTAINER_NAME -t $IMAGE_NAME
 
 # -e http_proxy='http://proxy.com:8080' \
 # -e https_proxy='http://proxy.com:8080' \
