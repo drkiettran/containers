@@ -9,9 +9,9 @@ export CONTAINER_NAME=postgres
 docker pull $IMAGE_NAME
  
 # Setup local configuration folder
-# docker volume create --name postgresql_data
 # docker volume create --driver local --opt type=tmpfs --opt device=tmpfs --opt o=rw pgvol
 # docker network create cisc520-network
+# docker run -it --rm --network cisc520-network postgres psql -h postgres -U postgres
  
 # Start container
 docker run --restart=always -d -p $EXT_PORT_NO:$INT_PORT_NO \
