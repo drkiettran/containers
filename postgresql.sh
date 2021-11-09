@@ -9,7 +9,7 @@ export CONTAINER_NAME=postgres
 docker pull $IMAGE_NAME
  
 # Setup local configuration folder
-# docker volume create --driver local --opt type=tmpfs --opt device=tmpfs --opt o=rw pgvol
+# docker volume create pgvol
 # docker network create cisc520-network
 # docker run -it --rm --network cisc520-network postgres psql -h postgres -U postgres
  

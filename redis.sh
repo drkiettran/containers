@@ -11,7 +11,7 @@ export CONTAINER_NAME=redis
 docker pull $IMAGE_NAME
  
 # Setup local configuration folder
-# docker volume create --driver local --opt type=tmpfs --opt device=tmpfs --opt o=rw redisvol
+# docker volume create redisvol
 # Start container
 
 docker run -d --name $CONTAINER_NAME -p $EXT_PORT_NO:$INT_PORT_NO \

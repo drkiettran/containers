@@ -6,7 +6,7 @@
 # remote input socket port, nifi.remote.input.socket.port, 10000
 # jvm debugger, java.arg.debug, 8000
 # create nifi volume using this cli:
-# docker volume create --driver local --opt type=tmpfs --opt device=tmpfs --opt o=rw nifivol
+# docker volume create nifivol
 
 
 # Need a network cisc520-network created.
