@@ -6,7 +6,8 @@
 # remote input socket port, nifi.remote.input.socket.port, 10000
 # jvm debugger, java.arg.debug, 8000
 # create nifi volume using this cli:
-# docker volume create nifivol
+# docker volume create nifivol **** DONT USE THIS ***
+# USE THIS at command prompt: mkdir ~/nifivol
 
 
 # Need a network cisc520-network created.
@@ -22,8 +23,8 @@ docker pull $IMAGE_NAME
 # Setup local configuration folder
  
 # Start container
-docker run --restart=always -d -p $EXT_PORT_NO:$INT_PORT_NO \
-	-v nifivol:/nifidata:rw \
+ docker run --restart=always -d -p $EXT_PORT_NO:$INT_PORT_NO \
+	-v ~/nifivol:/nifidata \
 	--net cisc520-network \
 	--name $CONTAINER_NAME -t $IMAGE_NAME
 
